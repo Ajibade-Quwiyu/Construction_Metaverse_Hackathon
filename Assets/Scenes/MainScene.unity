@@ -1793,14 +1793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3394c54cd3f3e284aa03def0203d1912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: {fileID: 1191813823}
-  passed_UI: {fileID: 724880815}
-  wrong_UI: {fileID: 1615989670}
-  text: {fileID: 451069645}
-  passed: {fileID: 1745117860}
-  wrong: {fileID: 236886384}
-  next_Question: {fileID: 516826617}
-  animationController: {fileID: 697664353}
 --- !u!1 &238116044
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,7 +1976,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a53a1489fc39654d93409b35f87f69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carrier: {fileID: 2071393580}
 --- !u!54 &244925577
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3314,7 +3305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4e9733c64e16e419018864042f71b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toPlay: excavator
+  toPlay: excavator2
   Player: {fileID: 454989603}
 --- !u!95 &454989603
 Animator:
@@ -3631,14 +3622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3394c54cd3f3e284aa03def0203d1912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: {fileID: 729508634}
-  passed_UI: {fileID: 1115410213}
-  wrong_UI: {fileID: 235946942}
-  text: {fileID: 1849174830}
-  passed: {fileID: 308941724}
-  wrong: {fileID: 1647937894}
-  next_Question: {fileID: 1498189137}
-  animationController: {fileID: 2071393582}
 --- !u!1 &548797860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4542,8 +4525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4e9733c64e16e419018864042f71b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toPlay: Crane
-  Player: {fileID: 697664352}
+  toPlay: 
+  Player: {fileID: 0}
 --- !u!1 &701777315
 GameObject:
   m_ObjectHideFlags: 0
@@ -4611,7 +4594,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a53a1489fc39654d93409b35f87f69c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carrier: {fileID: 2458355192330337461}
 --- !u!65 &707082440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8964,14 +8946,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3394c54cd3f3e284aa03def0203d1912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: {fileID: 416676813}
-  passed_UI: {fileID: 1849923702}
-  wrong_UI: {fileID: 671647537}
-  text: {fileID: 2033274806}
-  passed: {fileID: 367817527}
-  wrong: {fileID: 584113929}
-  next_Question: {fileID: 0}
-  animationController: {fileID: 0}
 --- !u!1 &1499521269
 GameObject:
   m_ObjectHideFlags: 0
@@ -11701,9 +11675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa6232b8d22070142a2163c16aa67536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oK: {fileID: 1114559341}
-  next_Instruction: {fileID: 237078920}
-  animationController: {fileID: 9202588509139614838}
 --- !u!1 &1953092810
 GameObject:
   m_ObjectHideFlags: 0
@@ -12621,7 +12592,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071393580}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c4e9733c64e16e419018864042f71b4, type: 3}
   m_Name: 
@@ -16574,7 +16545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4e9733c64e16e419018864042f71b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toPlay: excavator2
+  toPlay: excavator
   Player: {fileID: 1846387441}
 --- !u!4 &4000010930428941
 Transform:
@@ -28176,12 +28147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 1, g: 0, b: 0, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!23 &1702213951164358603
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33310,7 +33275,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2458355192330337461}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 663fa5977c8b2f04cbfc0e553c3568b1, type: 3}
   m_Controller: {fileID: 9100000, guid: cbdf5c9cb3d56964c95c0c79937328d4, type: 2}
   m_CullingMode: 1
@@ -33329,7 +33294,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2458355192330337461}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c4e9733c64e16e419018864042f71b4, type: 3}
   m_Name: 
