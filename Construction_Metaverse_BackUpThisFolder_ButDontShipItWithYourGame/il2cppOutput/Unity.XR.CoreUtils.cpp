@@ -3382,24 +3382,34 @@ struct TrackedPoseDriver_t779D5EAD0B11F253C64256301D08963E951CEA98  : public Mon
 	int32_t ___m_TrackingType_4;
 	// UnityEngine.InputSystem.XR.TrackedPoseDriver/UpdateType UnityEngine.InputSystem.XR.TrackedPoseDriver::m_UpdateType
 	int32_t ___m_UpdateType_5;
+	// System.Boolean UnityEngine.InputSystem.XR.TrackedPoseDriver::m_IgnoreTrackingState
+	bool ___m_IgnoreTrackingState_6;
 	// UnityEngine.InputSystem.InputActionProperty UnityEngine.InputSystem.XR.TrackedPoseDriver::m_PositionInput
-	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___m_PositionInput_6;
+	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___m_PositionInput_7;
 	// UnityEngine.InputSystem.InputActionProperty UnityEngine.InputSystem.XR.TrackedPoseDriver::m_RotationInput
-	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___m_RotationInput_7;
+	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___m_RotationInput_8;
+	// UnityEngine.InputSystem.InputActionProperty UnityEngine.InputSystem.XR.TrackedPoseDriver::m_TrackingStateInput
+	InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD ___m_TrackingStateInput_9;
 	// UnityEngine.Vector3 UnityEngine.InputSystem.XR.TrackedPoseDriver::m_CurrentPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_CurrentPosition_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_CurrentPosition_10;
 	// UnityEngine.Quaternion UnityEngine.InputSystem.XR.TrackedPoseDriver::m_CurrentRotation
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_CurrentRotation_9;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_CurrentRotation_11;
+	// UnityEngine.InputSystem.XR.TrackedPoseDriver/TrackingStates UnityEngine.InputSystem.XR.TrackedPoseDriver::m_CurrentTrackingState
+	int32_t ___m_CurrentTrackingState_12;
 	// System.Boolean UnityEngine.InputSystem.XR.TrackedPoseDriver::m_RotationBound
-	bool ___m_RotationBound_10;
+	bool ___m_RotationBound_13;
 	// System.Boolean UnityEngine.InputSystem.XR.TrackedPoseDriver::m_PositionBound
-	bool ___m_PositionBound_11;
+	bool ___m_PositionBound_14;
+	// System.Boolean UnityEngine.InputSystem.XR.TrackedPoseDriver::m_TrackingStateBound
+	bool ___m_TrackingStateBound_15;
+	// System.Boolean UnityEngine.InputSystem.XR.TrackedPoseDriver::m_IsFirstUpdate
+	bool ___m_IsFirstUpdate_16;
 	// UnityEngine.InputSystem.InputAction UnityEngine.InputSystem.XR.TrackedPoseDriver::m_PositionAction
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_PositionAction_12;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_PositionAction_17;
 	// UnityEngine.InputSystem.InputAction UnityEngine.InputSystem.XR.TrackedPoseDriver::m_RotationAction
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_RotationAction_13;
+	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_RotationAction_18;
 	// System.Boolean UnityEngine.InputSystem.XR.TrackedPoseDriver::m_HasMigratedActions
-	bool ___m_HasMigratedActions_14;
+	bool ___m_HasMigratedActions_19;
 };
 
 // UnityEngine.SpatialTracking.TrackedPoseDriver

@@ -50,17 +50,17 @@ static Il2CppMethodPointer s_methodPointers[11] =
 };
 static const int32_t s_InvokerIndices[11] = 
 {
-	6919,
-	6919,
-	5347,
-	5347,
-	6919,
-	6919,
-	6919,
-	6919,
-	6919,
-	6919,
-	6919,
+	6933,
+	6933,
+	5359,
+	5359,
+	6933,
+	6933,
+	6933,
+	6933,
+	6933,
+	6933,
+	6933,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_Hands_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_Hands_CodeGenModule = 
