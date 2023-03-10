@@ -16,7 +16,7 @@ public class OnGrab : MonoBehaviour
     }
     IEnumerator Disable()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         todisable.SetActive(false);
     }
     
