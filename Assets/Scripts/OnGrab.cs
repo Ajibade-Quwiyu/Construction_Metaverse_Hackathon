@@ -4,12 +4,21 @@ using UnityEngine;
 
 public class OnGrab : MonoBehaviour
 {
-    public Outline outline;
-    public void OnGrabbing()
+    GameObject todisable;
+    private void OnTriggerEnter(Collider other)
     {
-        outline.enabled = true;
-        Destroy(this.gameObject,4);
-
+        if (other.GetComponentInChildren<Outline>() != null)
+        {
+            other.GetComponentInChildren<Outline>().enabled = true;
+            todisable = other.gameObject;
+            StartCoroutine(Disable());
+        }
+    }
+    IEnumerator Disable()
+    {
+        yield return new WaitForSeconds(2);
+        todisable.SetActive(false);
     }
     
+
 }

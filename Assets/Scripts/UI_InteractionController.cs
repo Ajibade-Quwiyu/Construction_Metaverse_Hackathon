@@ -38,7 +38,7 @@ public class UI_InteractionController : MonoBehaviour
         //Deactivating UI Canvas Gameobject by default
         if (UICanvasGameobject !=null)
         {
-            UICanvasGameobject.SetActive(false);
+            UICanvasGameobject.SetActive(true);
 
         }
 
